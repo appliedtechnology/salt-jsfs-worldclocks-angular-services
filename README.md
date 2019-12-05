@@ -1,6 +1,6 @@
 # &lt;/salt&gt;
 
-## World Clocks 
+## World Clocks - With React
 
 In this exercise you will create a SPA with a set of independent clocks showing the time from different time zones.
 Each clock should be an independent React component with its own timer.
