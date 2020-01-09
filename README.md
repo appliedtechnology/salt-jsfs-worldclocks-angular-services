@@ -8,11 +8,11 @@ You can continue from the app you created or recreate the app from the instructi
 
 Build the world clocks again, but this time:
 
-* Create a logger service `ng generate service logger` that logs messages to a text-file `access-log`
+* Create a logger service `ng generate service logger` that logs messages to the console (you probably (?) would not write a separate service for this in real life, but it will prove a good exercise for the other things)
   * Add a method that logs a message `timestamp - description of event`
   * Add a method to read the last 10 messages from the file
 
-* Add a service to get time-zones `tz.json`
+* Add a service to get time-zones from a file `tz.json`
   * These timezones will drive the layout of the application.
   * Add a method to get all timezones and to get an individual timezone
   * Log each access to the file with the logger service
